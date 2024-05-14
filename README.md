@@ -22,7 +22,7 @@ is the UDP multicast, which is not essential anyway.
 ## Security
 
 There's a "targetip=xxx.xxx.xxx.xxx" command line option to restrict requests from a given
-ip. Without that option, anyone on the network and read the exported files.
+ip. Without that option, anyone on the network can read the exported files.
 
 The number of forked processes is limited.
 
@@ -129,7 +129,7 @@ This reduces printed messages.
 
 ### --verbose
 
-This increases printed messags.
+This increases printed messages.
 
 ### --syslog
 
